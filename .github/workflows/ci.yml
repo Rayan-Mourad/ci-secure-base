@@ -23,7 +23,7 @@ jobs:
 
     # Scanner avec Trivy
     - name: Run Trivy vulnerability scanner
-      uses: aquasecurity/trivy-action@v0.14.0
+      uses: aquasecurity/trivy-action@master
       with:
         image-ref: myimage:latest
         format: table
